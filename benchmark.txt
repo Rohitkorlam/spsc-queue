@@ -1,0 +1,9 @@
+----------------------------------------------------------------------------------------------------
+Benchmark                                          Time             CPU   Iterations UserCounters...
+----------------------------------------------------------------------------------------------------
+BM_Throughput<1024>/real_time                   60.1 ns         60.1 ns     10621456 consumed=10.6215M drops=0 items_per_second=16.6464M/s
+BM_Throughput<16384>/real_time                  49.8 ns         49.8 ns     15309528 consumed=15.3095M drops=0 items_per_second=20.0766M/s
+BM_Throughput<262144>/real_time                 48.2 ns         48.2 ns     12261767 consumed=12.2618M drops=0 items_per_second=20.7505M/s
+BM_Latency<1024>/iterations:1/real_time     39091020 ns     39054028 ns            1 drops=0 items_per_second=12.7907M/s max_ns=3.49156M mean_ns=1.12814k min_ns=35 p50_ns=143 p99_9_ns=46.882k p99_ns=17.84k
+BM_Latency<16384>/iterations:1/real_time    39453338 ns     39410436 ns            1 drops=0 items_per_second=12.6732M/s max_ns=7.20265M mean_ns=281.473k min_ns=11 p50_ns=164 p99_9_ns=7.17438M p99_ns=6.95459M
+BM_Latency<262144>/iterations:1/real_time   43548684 ns     43497056 ns            1 drops=0 items_per_second=11.4814M/s max_ns=5.1881M mean_ns=594.194k min_ns=17 p50_ns=59 p99_9_ns=5.18091M p99_ns=5.12837M
